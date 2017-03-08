@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+	 
+	<View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#000000" ></View>
+    <TextView
+        android:id="@+id/textNomePrato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textNomePrato"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/imageFotoPrato"
+        android:contentDescription="@string/imgDescription_fotoPrato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/splashscreen_image" />
+    
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:rating="2.0" 
+		style="?android:attr/ratingBarStyleIndicator" />
+
+    <TextView
+        android:id="@+id/textNomeRestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textNomeRestaurante"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textEnderecoRestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textEnderecoRestaurante"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/textValorEnergetico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textValorEnergetico"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textCarboidratos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textCarboidrato"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+         <TextView
+            android:id="@+id/textProteinas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textProteina"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textGorduraTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textGorduraTotal"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+         <TextView
+            android:id="@+id/textGorduraMono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textGorduraMono"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textGorduraPoli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textGorduraPoli"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <TextView
+            android:id="@+id/textGorduraTrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textGorduraTrans"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <TextView
+            android:id="@+id/textColesterol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textColesterol"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <TextView
+            android:id="@+id/textCalcio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textCalcio"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <TextView
+            android:id="@+id/textFerro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textFerro"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <TextView
+            android:id="@+id/textSodio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textSodio"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <TextView
+            android:id="@+id/textFibra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textFibra"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#000000" ></View>
+
+    </LinearLayout>
+
+</LinearLayout>

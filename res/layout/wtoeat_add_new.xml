@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/addphoto_prato" />
+
+    <EditText
+        android:id="@+id/editNomePrato"
+        android:hint="nome do prato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" ></EditText>
+        
+    <EditText
+        android:id="@+id/editNomeRestaurante"
+        android:hint="nome do restaurante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+   		</EditText>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="endereco do restaurante"
+        android:inputType="textPostalAddress" >
+
+        <requestFocus />
+    </EditText>
+<View
+        android:layout_width="fill_parent"
+        android:layout_height="3dip"
+        android:background="#AAAAAA" ></View>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editValorEnergetico"
+                android:hint="Valor Energetico (kcal)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            
+            <EditText
+                android:id="@+id/editCarboidrato"
+                android:hint="Carboidrato (gramas)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            
+             <EditText
+                android:id="@+id/Proteina"
+                android:hint="Proteinas (gramas)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+             
+              <EditText
+                android:id="@+id/editGorduraTotal"
+                android:hint="Gordura Total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+              
+              <EditText
+                android:id="@+id/editGorduraMono"
+                android:hint="Gordura Monossaturada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+              
+
+              
+              <EditText
+                android:id="@+id/editGorduraPoli"
+                android:hint="Gordura Polissaturada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+              
+   
+              
+              <EditText
+                android:id="@+id/editGorduraTrans"
+                android:hint="Gordura Trans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+              
+               <EditText
+                android:id="@+id/editColesterol"
+                android:hint="Colesterol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+              
+              <EditText
+                android:id="@+id/editCalcio"
+                android:hint="Calcio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+              
+              <EditText
+                android:id="@+id/editFerro"
+                android:hint="Ferro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+              
+              <EditText
+                android:id="@+id/editSodio"
+                android:hint="Sodio (mg)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

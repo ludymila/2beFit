@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/spinner_selectCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </Spinner>
+
+        <ImageView
+            android:id="@+id/imageView_whatToEat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imgDescription_whatToEat"
+            android:scaleType="fitXY"
+            android:src="@drawable/oquecomer" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/checkBox_preWorkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox_preWorkout" />
+
+        <CheckBox
+            android:id="@+id/checkBox_posWorkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox_posWorkout" />
+
+        <CheckBox
+            android:id="@+id/checkBox_baixoCarbs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox_baixoCarbs" />
+
+        <CheckBox
+            android:id="@+id/checkBox_ricoProteina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox_ricoProteina" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/checkBox_semLactose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox_semLactose" />
+
+        <CheckBox
+            android:id="@+id/checkBox_semGluten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox_semGluten" />
+
+        <CheckBox
+            android:id="@+id/checkBox_baixaCaloria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox_baixaCaloria" />
+
+        <CheckBox
+            android:id="@+id/checkBox_Vegetariano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox_vegetariano" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:orientation="horizontal" >
+
+        <SearchView
+            android:id="@+id/searchView_whatToEat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </SearchView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton_whatToEat_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imageButton_whatToEat_search"
+            android:scaleType="fitXY"
+            android:src="@drawable/buscar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout5"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

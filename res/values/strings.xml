@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Personal Diet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="to_be_fit_app_name">Personal Diet</string>
+    <string name="title_activity_main">Principal</string>
+     <string name="title_section0">Meu perfil</string>
+    <string name="title_section1">Timeline</string>
+    <string name="title_section2">Onde comer</string>
+    <string name="title_section3">Receitas</string>
+    <string name="navigation_drawer_open">Abrir menu</string>
+    <string name="navigation_drawer_close">Fechar menu</string>
+    <string name="action_example">Example action</string>
+    <string name="imgDescription_whatToEat">O que comer</string>
+    <string name="checkBox_preWorkout">pre Workout</string>
+    <string name="checkBox_posWorkout">pos Workout</string>
+    <string name="checkBox_baixoCarbs">baixo Carboidrato</string>
+    <string name="checkBox_ricoProteina">rico Proteina</string>
+    <string name="checkBox_semGluten">sem Gluten</string>
+    <string name="checkBox_semLactose">sem Lactose</string>
+    <string name="checkBox_baixaCaloria">baixa Caloria</string>
+    <string name="checkBox_vegetariano">vegetariano</string>
+    <string name="imageButton_whatToEat_search">buscar pratos</string>
+    <string name="textNomePrato">Nome do Prato</string>
+    <string name="textValorEnergetico">Valor Energetico: </string>
+    <string name="textCarboidrato">Carboidrato: </string>
+    <string name="textProteina">Proteina: </string>
+    <string name="textGorduraTotal">Gordura Total: </string>
+    <string name="textGorduraMono">Gordura Monoinsaturada: </string>
+    <string name="textGorduraPoli">Gordura Polinsaturada: </string>
+    <string name="textGorduraTrans">Gordura Trans: </string>
+    <string name="textColesterol">Colesterol: </string>
+    <string name="textCalcio">Calcio: </string>
+    <string name="textFerro">Ferro: </string>
+    <string name="textSodio">Sodio: </string>
+    <string name="textFibra">Fibra: </string>
+    <string name="imgDescription_fotoPrato">Foto do prato </string>
+    <string name="textNomeRestaurante">Nome do Restaurante</string>
+    <string name="textEnderecoRestaurante">Endereco do Restaurante</string>
+   
+   
+    <string-array name="cities_array">
+        <item>Amazonas</item>
+        <item>Amapa</item>
+        <item>Amazonas</item>
+    </string-array>
+
+</resources>
